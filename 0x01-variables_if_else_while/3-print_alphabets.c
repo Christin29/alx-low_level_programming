@@ -7,16 +7,15 @@
  */
 int main(void)
 {
-	char alp[26];
-	int i;
+	char alp;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		putchar(alp[i]);
+		putchar(alp);
 	}
-	for (i = 'A'; i <= 'Z'; i++)
+	for (alp = 'A'; alp <= 'Z'; alp++)
 	{
-		putchar(alp[i]);
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
