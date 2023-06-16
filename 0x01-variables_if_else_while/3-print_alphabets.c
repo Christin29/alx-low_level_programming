@@ -14,9 +14,7 @@ int main(void)
 	{
 		putchar(alp[i]);
 	}
-	int I;
-
-	for (I = 'A'; I <= 'Z'; I++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
 		putchar(alp[i]);
 	}
