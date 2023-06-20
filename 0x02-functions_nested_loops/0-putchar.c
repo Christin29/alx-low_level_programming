@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * main - printing _putchar without using printf and puts
+ * main - printing putchar
  *
- * Return: 0 Always (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char str[] = "_putchar";
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
