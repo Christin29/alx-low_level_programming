@@ -20,3 +20,4 @@ for (v = 0; v < size; v++)
 ver[v] = c;
 return (ver);
 }
+
